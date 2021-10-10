@@ -80,11 +80,11 @@ export default function Navbar() {
   };
 
   return (
-    <AppBar position="static">
+    <AppBar position="static" style={{backgroundColor: "#f8f9fa"}}>
       <Toolbar>
         <Grid container alignItems="center" justifyContent="space-between">
           <Grid item>
-            <Typography variant="h6">
+            <Typography variant="h6" style={{color: "black"}}>
               Brayan J. Castaneda
             </Typography>
           </Grid>
