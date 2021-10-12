@@ -8,7 +8,8 @@ export default function Jumbotron(props: {main: String, caption: String}) {
         justifyContent="center"
         style={{
             padding: "60px 0px 60px 0px",
-            backgroundColor: "#cfd8dc"
+            backgroundColor: "#cfd8dc",
+            fontFamily: "Roboto"
           }}
       >
         <Grid item xs={11} md={9} lg={7}>

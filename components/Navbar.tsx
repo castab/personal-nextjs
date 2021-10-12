@@ -80,7 +80,7 @@ export default function Navbar() {
   };
 
   return (
-    <AppBar position="static" style={{backgroundColor: "#f8f9fa"}}>
+    <AppBar position="sticky" style={{backgroundColor: "#f8f9fa"}}>
       <Toolbar>
         <Grid container alignItems="center" justifyContent="space-between">
           <Grid item>
